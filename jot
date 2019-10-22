@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+
+
+/**
+ *
+ * @author 760041
+ */
+public class Loop {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       /* int count =1;
+        int sum=0;
+        while (count<=10){
+            sum = sum+count;
+            ++count;
+        }
+        System.out.println(sum);
+    }
+        // TODO code application logic here
+        
+        int count =0;
+        while (count<10){
+         
+        System.out.println(count +"welcome");
+        ++count;
+        }*/
+        Scanner input = new Scanner (System.in);
+        String s="yes";
+        System.out.println("do you want to add a number");
+        s = input.next();
+        
+        int sum=0;
+        
+        while (s=="yes"){
+          System.out.println("please enter a number");
+          int nbr = input.nextInt();
+          sum = sum+nbr;
+    }
+              System.out.println("do you want to add a number");
+    }
+              
+        /*count =1;
+        sum = 0;
+         do{
+             sum = sum+count;
+             ++count;
+          }
+         while(count<=10);
+                
+       
+    
+
+
